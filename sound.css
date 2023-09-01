@@ -1,0 +1,19 @@
+       
+ .Alphabets img{
+        height: 100px;
+        width: 100px;
+         padding: 40px;
+    }
+    
+    .Alphabets :hover{
+        border: 2px solid lightgreen;
+        box-shadow: 2px ;
+    }
+    .B
+    img{
+        height: 100px;
+        width: 100px;
+         padding: 40px;
+    
+  }  
+    
