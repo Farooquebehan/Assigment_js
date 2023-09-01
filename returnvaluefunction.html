@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return value function</title>
+<script>
+function num1(){
+    document.getElementById('v1').value=1;
+}
+function num2(){
+    document.getElementById('v2').value=2;
+}
+function add(){
+    var 
+    v1 = parseInt(document.getElementById('v1').value)
+    v2 = parseInt(document.getElementById('v2').value)
+    document.write("addition of v1 and v2 " + (v1 + v2));
+}
+function sub(){
+    var 
+    v1 = parseInt(document.getElementById('v1').value)
+    v2 = parseInt(document.getElementById('v2').value)
+    document.write("sub of v1 and v2 " + (v1 - v2));
+}
+
+
+
+
+</script>
+</head>
+<body>
+   <center>
+<label for="">value 1</label>
+<input type="number" name="" id="v1">
+<br><br>
+<label for="">value 2</label>
+<input type="number" name="" id="v2">
+<br><br>
+<button onclick="num1();">1</button>
+<button onclick="num2();">2</button>
+<button>3</button>
+<br><br>
+<button>4</button>
+<button>5</button>
+<button>6</button>
+<button onclick="sub();">-</button>
+   </center>
+
+
+</body>
+</html>
