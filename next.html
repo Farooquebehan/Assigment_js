@@ -1,0 +1,73 @@
+
+<script>
+
+const number=[10,30,2,5,3,7,8,0,1,2,10]
+var largest = 0;
+document.write("Here is the largest number from above<br>")
+for(var i=0; i<=number.length-1; i++){
+    if(number[i]>largest){
+        document.write(i+ " " +number[i]+"<br>");
+        largest+=number[i];
+    }
+}
+
+const number1=[10,30,2,5,3,7,0,5,2,2,10]
+var lowest=number1[0];
+document.write("Here is the lowest value among above<br>")
+for(var i=0 ; i<number1.length; i++){
+    if(number1[i]<lowest){
+        lowest=number[i];
+  }
+}
+
+document.write(lowest+"<br>");
+       
+
+// const salary=[20000,50000,30000,10000,60000,70000];
+// var above_salary=0
+// document.write("Salaries of above 50k employees<br>")
+
+// for(var i=0; i<=salary.length-1; i++){
+//     if(salary[i]>=50000){
+//         document.write(i+" "+salary[i]+"<br>");
+//         above_salary+=salary[i];
+//     }
+// }
+
+// document.write("Total amount: "+above_salary+"<br>")
+// var less_salary=0;
+// document.write("Salaries of Less than to 50k employees<br>")
+// for(var i=0; i<=salary.length-1; i++){
+//     if(salary[i]<50000){
+//         document.write(i+" "+salary[i]+"<br>");
+//         less_salary+=salary[i];
+//     }
+// }
+// document.write("Total amount: "+less_salary)
+
+
+
+
+
+/* Assignments for Monday
+(1)
+10,30,2,5,3,7,8,0,1,2,10
+find the largest value from above
+
+(2)
+10,30,2,5,3,7,8,0,1,2,10
+find the Lowest value from above
+
+
+*/
+
+var array = [3 , 6, 2, 56, 32, 5, 89, 32];
+var largest= 0;
+
+for (i=0; i<array.length; i++){
+    if (array[i]>largest) {
+        largest=array[i];
+    }
+}
+
+</script>
