@@ -1,24 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>js Function</title>
-</head>
-<body>
-    <script>
-   function name(){
-    document.write("Name");
-   }
-   name();
-   document.write("<br/>");
-   name();
-   document.write("<br/>");
-   name();
-  
-   
-   </script>
+<script>
 
-</body>
-</html>
+var value1=parseInt(prompt("Enter value 1"))
+var value2=parseInt(prompt("Enter value 2"))
+var op=prompt("Enter any Operator(+,-,*,/,%)")
+
+operation(value1,value2,op);
+
+
+function operation(a,b,c){
+
+if(c=="+"){
+    document.write("Addition of a and b is: "+(a+b))
+}else if(c=="-"){
+    document.write("Substraction of a and b is: "+(a-b))
+
+}
+
+}
+
+/*
+Assignments
+
+1 Enter any day number(1 to 7) 5
+Day is Friday
+
+2 Enter month number(1 to 12) 3
+Month name March
+Season is Spring
+
+3 Enter year: 2020
+2020 is leap year/not leap year
+
+
+
+
+
+*/
+
+
+
+</script>
