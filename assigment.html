@@ -1,49 +1,57 @@
-<!-- <script>
-const stdent=["Name:Farooq", "roll:2k19/32", "Dept:cs" ];
-for(var i=0 ; i<stdent.length; i++) 
-{
-document.write(stdent[i]+"<br>");
-}
-
-document.write("<br>")
-
-const record=["Name:Amrat" , "father:Laloo" , "roll:2k19/21" , "dept:cs"];
-for(var i=0 ; i<record.length; i++){
-    document.write(record[i]+"<br>");
-}
-
-document.write("<br>")
-
-const record1= ["Name:Awais" , "Father:Nasir" , "roll:2k19/61" , "dept:cs" ];
-for(var i=0 ; i<record1.length; i++){
-    document.write(record1[i]+"<br>");
-}
-document.write("<br>")
-const record2=["Name:shoib","father:unknown","roll:2k19/33","dept:css"];
-for(var i=0 ; i<record2.length; i++){
-    document.write(record2[i]+"<br>");
-}
-document.write("<br>");
-
-const record3 = ["Name:Zulfi","father:M khan","roll:2k19/34","dept:css"];
-for(var i=0 ; i<record3.length; i++){
-    document.write(record3[i]+"<br>");
-}
-document.write("<br>")
-
-const record5 = ["Name:Junaid","father:Muhmmad","roll:2k19/44","dept:css"];
-for(var i=0 ; i<record5.length; i++){
-    document.write(record5[i]+"<br>");
-}
-document.write("<br>")  
-const record6=["Name:Azeem","father:Asim","roll:2k19/38","dept:css"];
-for(var i=0 ; i<record6.length; i++ )
-{
-    document.write(record6[i]+"<br>");
-
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="in.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
+</head>
+<body>
+    <div class="container col-lg-6 bg-primary text-center text-light">
+        Flight detail
+        <h3 class="text-center text-light"></h3> 
+       <form action="">
+        <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th>Flight</th>
+                <th>Time</th>
+                <th>Destionation</th>
+                <th>Detail</th>
+            </tr>
+            <thead>
+                <tbody>
+                    <td>PIA</td>
+                    <td>Everytime</td>
+                    <td>Dubai</td>
+                    <td>
+                        <select name="" id="name" class="form-control" onchange="get_info()">
+                            <option value="">Search</option>
+                            <option value="availbal">availbal</option>
+                            <option value="international">international</option>
+                        </select>
+                    </td>
+                    
+                </tbody>
+            </thead>
+        </thead>
+    </table>
+    
+    <input type="text" class="form-control mt-3"   name=""  id="Pia" style="display:none;" id="Pia" placeholder="Pia is availbal">
+    <input type="text" class="form-control mt-3"  name="" id="eco" style="display: none;" placeholder="out of range" >
+    <input type="text" class="form-control mt-3"  name="" id="inter" style="display: none;" placeholder="out of range" >               
+    <input class="form-control btn btn-danger mt-3" type="submit" name="" id="">
+       
+                </form>
+        
+
+    </div>
 
 
-</script> -->
+</body>
+</html>

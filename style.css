@@ -1,0 +1,19 @@
+.portion{
+    border: 2px solid;
+    width: 200px;
+    height: 400px;
+    background-color: chartreuse;
+    font-size: 20px;
+
+}
+
+.btn{
+    background-color:#f9004d ;
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    }
+    
